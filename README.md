@@ -1,2 +1,2 @@
 # surkea
-Ren'Py Game Jam 2108
+Ren'Py Game Jam 2018
