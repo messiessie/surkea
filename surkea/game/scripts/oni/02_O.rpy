@@ -1,4 +1,4 @@
-label 02_K:
+label S_02_O:
     scene TESTSCENE with Dissolve(2.5)
     #TODO
-    kura "This is scene O2_K."
+    kura "This is scene O2_O."

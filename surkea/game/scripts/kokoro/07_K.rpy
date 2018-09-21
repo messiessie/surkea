@@ -1,4 +1,4 @@
-label 07_K:
+label S_07_K:
     #TODO: Add sprite, BG and Music direction
     "I turn the corner."
     "There's Kokoro, staring at a wall that's shattered like glass, a blank smile on her face."

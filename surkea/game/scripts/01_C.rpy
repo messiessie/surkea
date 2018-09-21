@@ -1,4 +1,4 @@
-label 01_C:
+label S_01_C:
     scene TESTSCENE with Dissolve(2.5)
     #oni awakens, the rest of the girls are nearby
     #it's almost lunch, and oni has "taken a nap" after "falling yesterday"
@@ -19,7 +19,7 @@ label 01_C:
     utagu "How are you feeling?"
     oni "I'm fine, thank you. Are you done talking smack about me?"
     "She slowly levers herself to her feet with a nearby chair."
-    "Kokoro and Utago go to sit by their desks in the center of the classroom as I help Oni up and grab her chair.
+    "Kokoro and Utago go to sit by their desks in the center of the classroom as I help Oni up and grab her chair."
     kura "Are you sure you're okay?"
     kokoro "She's fine, she only took a well earned nap, right?"
     "Utagu and Kokoro chatter as Oni sits down in the chair I brought along. I join in and take a seat as well."
@@ -55,14 +55,14 @@ label 01_C:
     kura "And YOU, Kokoro, will have this one."
     "She gladly opens the box I just handed to her."
     kokoro "Oooh! Rice balls are my favorite!"
-    "We all sit together like earlier this morning. I hand over a bento box to Oni.
+    "We all sit together like earlier this morning. I hand over a bento box to Oni."
     utagu "How do you even have time to cook lunch in school?"
     oni "You know how it is here, classes are short enough because it's summer. We have so much time to waste here it's almost like we actually ARE on our break."
     "Kokoro leans over her table towards me, her face beaming a smile."
     kura "What about you, Oni?"
     oni "What about what?"
     kura "Lunch, dummy! What do you think is in there?"
-    "She ponders for a bit.
+    "She ponders for a bit."
     oni "Hmm. With the size and weight of this box I'll say…"
     "I stare at her in anticipation as she hovers the box up and down gently with her hands."
     oni "Vegetable tempura with rice and salmon?"
@@ -109,17 +109,19 @@ label 01_C:
 
 label oniroute:
     #ONIROUTE
-    call 02_O from _call_02_O
+    call S_02_O from _call_S_02_O                          
 return
 
 label kokororoute:
     #KOKOROROUTE
-    call 02_K from _call_02_K
+    call S_02_K from _call_S_02_K
+
 return
 
 label utagiroute:
     #UTAGUROUTE
-    call 02_U from _call_02_U
+    call S_02_U from _call_S_02_U
+                                                                              
 return
 
 

@@ -1,4 +1,4 @@
-label 01_U:
+label S_07_U:
     scene TESTSCENE with Dissolve(2.5)
     kura "Utagu."
     "She doesn't respond. She only whimpers, turning on her feet to look down the first corridor, and then the second, and then the first, which comes back to face her before she's turned full circle."
