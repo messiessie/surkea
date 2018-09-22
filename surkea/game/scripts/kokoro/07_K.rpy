@@ -132,4 +132,7 @@ label S_07_K:
     kokoro "Fffff..."
     "I close my eyes, but the grasping shadow-hands persist in my vision. There's no escape."
     "This is the end."
+
+    $ persistent.kokoroClear = True
+
 return

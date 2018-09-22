@@ -96,4 +96,6 @@ label S_07_U:
     "But three final words make it to my ears before the last of my senses disappear."
     utagu "Until next time."
 
+    $ persistent.utaguClear = True
+
 return

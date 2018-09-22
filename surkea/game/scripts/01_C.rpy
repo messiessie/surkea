@@ -94,10 +94,11 @@ label S_01_C:
     "I could help Kokoro out, or go to the library and sit and read something with Utagu."
     "Hmmm…"
     
+    label menuChoice:
+
     menu:
      "Who should I spend time with this afternoon?"
 
-    #this option shouldn't be unlocked until you have played Kokoro and Utagu's routes
      "Try and find Oni.":
          jump oniroute 
 
@@ -108,13 +109,21 @@ label S_01_C:
          jump utaguroute
 
 label oniroute:
-    #ONIROUTE
-    call S_02_O from _call_S_02_O
-    call S_03_O from _call_S_03_O
-    call S_04_O from _call_S_04_O
-    call S_05_O from _call_S_05_O
-    call S_06_O from _call_S_06_O
-    call S_07_O from _call_S_07_O                         
+
+    if persistent.kokoroClear and persistent.utaguClear:
+        #ONIROUTE
+        call S_02_O from _call_S_02_O
+        call S_03_O from _call_S_03_O
+        call S_04_O from _call_S_04_O
+        call S_05_O from _call_S_05_O
+        call S_06_O from _call_S_06_O
+        call S_07_O from _call_S_07_O
+    else:
+        scene TESTSCENE with Dissolve(2.5)
+        "I can't seem to find Oni anywhere."
+        "I guess I'll hang out with someone else, then."
+        jump menuChoice
+
 return
 
 label kokororoute:
