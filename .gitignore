@@ -39,5 +39,6 @@ Temporary Items
 **/errors.txt
 **/traceback.txt
 *-dists/*
+log.txt
 surkea/log.txt
 surkea/game/saves/persistent

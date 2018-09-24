@@ -10,16 +10,20 @@ label S_01_C:
     utagu "Are you alright? You were out for a while there."
     kokoro "She must have been knocked out from that breakfast you made, Kura."
     #eye slowly open
-    #fade from Oni to classroom with Kura, Kokoro and Utagu all present  
+    #fade from Oni to classroom with Kura, Kokoro and Utagu all present 
+    show kokoro worry at centered 
+    show kura hmm at center_left
+    show utagu neutral at center_right 
     kokoro "I WARNED you, Oni is too sensitive to any sort of spice. She couldn't even handle black pepper if she tried to!"
     kura "First off, how dare you. Second, she could barely handle white bread if I made her a toast."
     utagu "…I think that's just gluten intolerance."
     "As we chatter along, Oni sits up slowly, idly rubbing the sleep from her eye."
     "She looks at me first, and lets her eyes wander around the classroom."
     utagu "How are you feeling?"
+    show oni neutral at right
     oni "I'm fine, thank you. Are you done talking smack about me?"
-    "She slowly levers herself to her feet with a nearby chair."
-    "Kokoro and Utago go to sit by their desks in the center of the classroom as I help Oni up and grab her chair."
+    "She slowly rises to her feet with a nearby chair."
+    "Kokoro and Utagu go to sit by their desks in the center of the classroom as I help Oni up and grab her chair."
     kura "Are you sure you're okay?"
     kokoro "She's fine, she only took a well earned nap, right?"
     "Utagu and Kokoro chatter as Oni sits down in the chair I brought along. I join in and take a seat as well."
@@ -89,6 +93,10 @@ label S_01_C:
     oni "I'll go to the principal's office before I head home. You girls have fun today."
     "She stands up abruptly and leaves the classroom."
     oni "See you tomorrow."
+    hide oni
+    hide kura
+    hide kokoro
+    hide utagu
     "Everyone tells her goodbye and then goes their own way."
     "I'm left standing alone in the classroom. I have absolutely no idea what to do for the rest of the day."
     "I could help Kokoro out, or go to the library and sit and read something with Utagu."
