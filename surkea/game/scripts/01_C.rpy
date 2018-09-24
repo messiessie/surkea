@@ -11,16 +11,20 @@ label S_01_C:
     kokoro "She must have been knocked out from that breakfast you made, Kura."
     #eye slowly open
     #fade from Oni to classroom with Kura, Kokoro and Utagu all present 
-    show kokoro worry at centered 
-    show kura hmm at left
-    show utagu neutral at center_right 
+    show kokoro worry:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show utagu neutral:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
     kokoro "I WARNED you, Oni is too sensitive to any sort of spice. She couldn't even handle black pepper if she tried to!"
     kura "First off, how dare you. Second, she could barely handle white bread if I made her a toast."
     utagu "…I think that's just gluten intolerance."
     "As we chatter along, Oni sits up slowly, idly rubbing the sleep from her eye."
     "She looks at me first, and lets her eyes wander around the classroom."
     utagu "How are you feeling?"
-    show oni neutral at right
+    show oni neutral:
+        yanchor 1.0 ypos 1080+300 xalign 1.2
     oni "I'm fine, thank you. Are you done talking smack about me?"
     "She slowly rises to her feet with a nearby chair."
     "Kokoro and Utagu go to sit by their desks in the center of the classroom as I help Oni up and grab her chair."
