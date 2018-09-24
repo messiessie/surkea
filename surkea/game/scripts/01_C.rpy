@@ -12,7 +12,7 @@ label S_01_C:
     #eye slowly open
     #fade from Oni to classroom with Kura, Kokoro and Utagu all present 
     show kokoro worry at centered 
-    show kura hmm at center_left
+    show kura hmm at left
     show utagu neutral at center_right 
     kokoro "I WARNED you, Oni is too sensitive to any sort of spice. She couldn't even handle black pepper if she tried to!"
     kura "First off, how dare you. Second, she could barely handle white bread if I made her a toast."
