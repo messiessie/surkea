@@ -43,6 +43,7 @@ define build.name = "surkea"
 
 ## These three variables control which mixers are shown to the player by
 ## default. Setting one of these to False will hide the appropriate mixer.
+## Disabling voice because we have no voices for this project.
 
 define config.has_sound = True
 define config.has_music = True
