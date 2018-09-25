@@ -19,6 +19,8 @@ transform transform_hide:
     on hide:
         linear 0.25 alpha 0
 
+
+#Standard positioning for characters
 transform centered:
     common()
 

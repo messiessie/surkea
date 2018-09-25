@@ -1,16 +1,16 @@
 label S_01_C:
     scene TESTSCENE with Dissolve(2.5)
-    #oni awakens, the rest of the girls are nearby
-    #it's almost lunch, and oni has "taken a nap" after "falling yesterday"
-    #the girls chat about lunch and what foods they like most
-    #kura brings up that the weather is a little weird recently. Kokoro mentions that it'll be fine, probably. Utagu is nervous because she doesn't have an umbrella. 
+    # oni awakens, the rest of the girls are nearby
+    # it's almost lunch, and oni has "taken a nap" after "falling yesterday"
+    # the girls chat about lunch and what foods they like most
+    # kura brings up that the weather is a little weird recently. Kokoro mentions that it'll be fine, probably. Utagu is nervous because she doesn't have an umbrella. 
     #
-    #fade from black to closeup of Oni's eyes
+    # fade from black to closeup of Oni's eyes
     kura "Oh! You're awake!"
     utagu "Are you alright? You were out for a while there."
     kokoro "She must have been knocked out from that breakfast you made, Kura."
-    #eye slowly open
-    #fade from Oni to classroom with Kura, Kokoro and Utagu all present 
+    # eye slowly open
+    # fade from Oni to classroom with Kura, Kokoro and Utagu all present 
     show kokoro worry:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     show kura hmm:
@@ -43,7 +43,8 @@ label S_01_C:
     "She's very relaxing to be with, so I'm glad she's part of our little group." 
     "We sit and waste some time before I decide it's time to go cook."
     "Utagu and Oni sit and chat while Kokoro and I go to prepare for lunch."
-    #school bell ringing
+    # Transition
+    # school bell ringing
     "The school bell rings out to let us know that our lesson is over."
     "Utagu breathes a sigh of relief."
     kura "What's up, Utagu?"
@@ -76,9 +77,12 @@ label S_01_C:
     oni "Vegetable tempura with rice and salmon?"
     kura "Oh, you're good. Or I'm becoming too predictable."
     oni "You just know what I love."
+    # Fadeout to BG as time passes
     "We all dig in and chat about various topics."
     "Time seems to fly by us in seconds, because as soon as we finished our lunch, afternoon class begins."
-    #school bell ringing
+    # Transition
+    # Show evening classroom BG w/ all girls
+    # school bell ringing
     "We all stretch our arms as the school bell rings."
     kokoro "Haaaaaah, finally the day is over."
     "I watch her jump out of her chair as I put away my books."
@@ -97,10 +101,11 @@ label S_01_C:
     oni "I'll go to the principal's office before I head home. You girls have fun today."
     "She stands up abruptly and leaves the classroom."
     oni "See you tomorrow."
-    hide oni
-    hide kura
+    hide oni 
     hide kokoro
     hide utagu
+    show kura hmm at centered:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
     "Everyone tells her goodbye and then goes their own way."
     "I'm left standing alone in the classroom. I have absolutely no idea what to do for the rest of the day."
     "I could help Kokoro out, or go to the library and sit and read something with Utagu."
