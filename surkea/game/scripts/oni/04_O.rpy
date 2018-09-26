@@ -19,7 +19,7 @@ label S_04_O:
     "Before I become too angry I realize one eye has been on me since I woke up."
     #closeup of Oni
     "Why are you looking at me like that?"
-    "Why won’t you talk to me?
+    "Why won’t you talk to me?"
     "Why the fuck won’t you acknowledge me?!"
     "Are you deaf?! Do you even have ears?!"
     #quick cut to cg of Oni’s hair being shoved to the sides by Kura, exposing her lack of ears
@@ -32,7 +32,7 @@ label S_04_O:
     "We all saw it."
     "How the hell is this possible?"
     "Oni looks at us like we were ghosts."
-    "Nobody says a word, but at this point we all see and hear each other.
+    "Nobody says a word, but at this point we all see and hear each other."
     "I feel my blood starting to boil."
     kura "Well? What do you have to say now?"
     "Oni seems absolutely terrified of me."
@@ -86,7 +86,8 @@ label S_04_O:
     "The sickness exhausts my body completely."
     "I pass out."
     #blackness
-    (no textbox, glitchy text in the beginning?) "...taking this matter over to th-"
+    #(no textbox, glitchy text in the beginning?)
+    "...taking this matter over to th-"
     "-es, over there."
     "How is that one going? Any-"
     "...Huh. Ok, then switch them over to the other cage."

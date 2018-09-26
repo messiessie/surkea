@@ -1,7 +1,9 @@
 label S_02_U:
     scene TESTSCENE with Dissolve(2.5)
     #TODO
-    <scene open>
+    #<scene open>
+    show kura smile:
+        yanchor 1.0 ypos 1080+300 xalign 0
 
     "I'm in more of a studious mood right now, I think."
     "The quiet of the library, the crisp aroma of paper, the ruffle of a page turning."
@@ -26,7 +28,8 @@ label S_02_U:
     "I hear the sound of a page being turned from somewhere between the shelves. I bet she's back there, relaxing on one of the brightly colored bean bag chairs. It's her favorite spot."
     "I squeeze in between the Mystery and Romance shelves, nearly tripping on a stack of detective books on the ground."
 
-    #>UTAGU IN, Utagu_Smile.png, center
+    show utagu smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
 
     "Coming out the other side, I spot Utagu right where I expected her, half-swallowed into a purple bean bag chair in the corner."
     "She's absorbed in a thick volume of what appears to be a fantasy novel, but her eyes flit up to look at me as I enter her field of view."
@@ -46,7 +49,7 @@ label S_02_U:
     "I take one that looks like modern Lord of the Rings, and another with an eye-catching robot on the cover."
     kura "You're into some cool stuff, Utagu."
 
-    utagu smile
+    show utagu smile
 
     "She giggles into her book."
 
@@ -73,7 +76,7 @@ label S_02_U:
     kura "What do you know about it?"
     "My words bring her back to the present and she blinks, looking at the cover."
 
-    utagu smile
+    show utagu smile
 
     "Her face opens into a smile."
     utagu "Oh, that one!"
@@ -88,7 +91,7 @@ label S_02_U:
     kura hmm "Oh? That sounds like a good read."
     utagu "It definitely will be. Give it a look."
     kura smile "For sure. But what about this-"
-    kura hmm
+    show kura hmm
     "I pause, confused."
     "I was about to show Utagu the other book I'd taken from her stack. The Lord-of-the-Rings-looking one I'd set on my lap along with the robot book."
     "But it's not there."
@@ -143,7 +146,7 @@ label S_02_U:
     kura "Don't worry, I'll wait with you in the meantime."
     kura "In fact, whichever of these you decide not to take, I'll check out myself."
 
-    utagu smile
+    show utagu smile
     "Utagu laughs and leans back into her chair, burying her face another book from the stack."
     utagu "Perfect."
     "I flip open the robot book, find the first sentence, and start reading."

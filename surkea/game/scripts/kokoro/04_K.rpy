@@ -50,7 +50,7 @@ label S_04_K:
     "I reach into my bag, brow deeply furrowed, and pull out my school planner."
     "Flipping to the back page, I check it briefly, then slap it down on the table."
     kura "The phantom library returns."
-    "Utago looks down at the map, studying it carefully."
+    "Utagu looks down at the map, studying it carefully."
     show utagu worry
     "Then, she pulls out her own planner, placing it next to mine on the last page, her eyes flicking between the two."
     utagu "...It's back. Okay, the library's back. That's fine."
@@ -77,7 +77,7 @@ label S_04_K:
     "Utagu blurts out."
     utagu worry "Can we just go and check?"
     
-    scene bg corridor
+    #scene bg corridor
 
     show utagu huh smile at midleft
     show kokoro neutral at midright
