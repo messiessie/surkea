@@ -15,9 +15,10 @@ transform common(x = 0):
         ease 0.75 xoffset x
 
 # This is so that characters don't blip out of existence.
+# Use "show x at transform_hide", then "hide x" to hide a given character
 transform transform_hide:
     on hide:
-        linear 0.25 alpha 0
+        linear 0.45 alpha 0
 
 
 #Standard positioning for characters

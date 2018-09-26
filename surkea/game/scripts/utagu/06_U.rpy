@@ -1,11 +1,6 @@
 label S_06_U:
     scene TESTSCENE with Dissolve(2.5)
     #TODO
-    kokoro "TEST SCRIPT"
-    oni "TEST SCRIPT"
-    utagu "TEST SCRIPT"
-    kura "TEST SCRIPT"
-
     utagu "I want to believe you, Kura. I really do."
     kura "Why can't you?"
     utagu "I don't know. I just... can't."

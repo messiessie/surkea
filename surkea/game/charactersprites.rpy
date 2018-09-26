@@ -59,5 +59,6 @@ image kura cry_mad = im.FactorScale("sprites/kura/Kura_Cry_Mad.png", 0.30, bilin
 image kura cry_frown = im.FactorScale("sprites/kura/Kura_Cry_Frown.png", 0.30, bilinear=True)
 image kura cunning = im.FactorScale("sprites/kura/Kura_Cunning.png", 0.30, bilinear=True)
 image kura cunning2 = im.FactorScale("sprites/kura/Kura_Cunning2.png", 0.30, bilinear=True)
-
+image kura end = im.FactorScale("sprites/kura/Kura_End.png", 0.30, bilinear=True)
+image kura end2 = im.FactorScale("sprites/kura/Kura_End2.png", 0.30, bilinear=True)
 
