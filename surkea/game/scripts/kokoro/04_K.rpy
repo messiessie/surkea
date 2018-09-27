@@ -1,11 +1,14 @@
 label S_04_K:
     scene TESTSCENE with Dissolve(2.5)
-    "Later that day, I head into lunch with Kokoro."
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show kokoro smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    "Later that day, I head to lunch with Kokoro."
     "Maybe it shouldn't be, but the mug... thing from earlier is still on my mind."
     "‘mug thing’ is about all I can think of to describe it. What else would work? The mug... anomaly?"
     "Kokoro's probably right. I was tired. Maybe it was a trick of the light or something, a weird reflection."
     "Nothing to worry about."
-    show kokoro smile at midright
     "I don't realise right away that we've already sat down to eat, and Kokoro has started speaking."
     kokoro "- so I wasn't sure if I'd brought my lunch today or not and I was thinking about it all lesson until I got a chance to look in my bag."
     "Luckily, the topic of conversation isn't so complex that I can't cotton on pretty quickly."
@@ -18,7 +21,8 @@ label S_04_K:
     "How did I not notice that before? It's like it was just outside of my peripheral vision or something, but it was right in front of me."
     "Man, how sleep-deprived am I?"
     "I don't have much time to dwell on this before we're joined by someone else."
-    show utagu frown at midleft
+    show utagu frown:
+        yanchor 1.0 ypos 1080+300 xalign -0.3
     "Utagu joins us, swiftly sitting down next to Kokoro."
     kokoro smile "Hey Utagu!"
     utagu huh "Oh, hey."
@@ -79,9 +83,9 @@ label S_04_K:
     
     #scene bg corridor
 
-    show utagu huh smile at midleft
-    show kokoro neutral at midright
-    utagu "Okay... library is definitely back."
+    show utagu huh
+    show kokoro neutral
+    utagu "Okay... the library is definitely back."
     utagu smile "Nothing to worry about."
     kura "Right."
     kokoro smile "Right!"
@@ -90,3 +94,5 @@ label S_04_K:
     utagu huh "Yeah."
     "We stare at the library door for a few seconds, as thought none of us wants to look away for fear it might disappear if we don't keep an eye on it."
     kura "Let's just go."
+
+return

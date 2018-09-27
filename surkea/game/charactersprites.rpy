@@ -51,6 +51,7 @@ image kokoro worry = im.FactorScale("sprites/kokoro/Kokoro_Worry.png", 0.30, bil
 ##########################################
 
 image kura smile = im.FactorScale("sprites/kura/Kura_Smile.png", 0.30, bilinear=True)
+image kura smug = im.FactorScale("sprites/kura/Kura_Smug.png", 0.30, bilinear=True)
 image kura hmm = im.FactorScale("sprites/kura/Kura_Hmm.png", 0.30, bilinear=True)
 image kura frown = im.FactorScale("sprites/kura/Kura_Frown.png", 0.30, bilinear=True)
 image kura mad = im.FactorScale("sprites/kura/Kura_Mad.png", 0.30, bilinear=True)

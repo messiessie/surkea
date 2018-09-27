@@ -1,5 +1,6 @@
-default persistent.kokoroClear = 0
-default persistent.utaguClear = 0
+default persistent.kokoroClear = False
+default persistent.utaguClear = False
+default persistent.allClear = False
 
 # The game starts here.
 label start:

@@ -5,6 +5,7 @@
 init offset = -1
 
 
+
 ################################################################################
 ## Styles
 ################################################################################
@@ -380,8 +381,16 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 420
     yfill True
-
-    background "gui/overlay/main_menu.png"
+    if persistent.utaguClear:
+        background "gui/main_menu/main_menu_utagu.png"
+    elif persistent.kokoroClear: 
+        background "gui/main_menu/main_menu_kokoro.png"
+    elif persistent.utaguClear and persistent.kokoroClear:
+        background "gui/main_menu/main_menu_utagu_kokoro.png"
+    elif persistent.utaguClear and persistent.kokoroClear and persistent.allClear:
+        background "gui/main_menu/main_menu_all.png"
+    else:
+        background "gui/main_menu/main_menu_empty.png"
 
 style main_menu_vbox:
     xalign 1.0
