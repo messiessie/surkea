@@ -134,11 +134,11 @@ label S_07_K:
     "She tries once more to form that word and fails."
     "Anguish flashes across her face."
     kokoro smile "Fffff..."
-    show kokoro at transform_hide:
-        hide kokoro
+    show kokoro at transform_hide
+    hide kokoro
     "I close my eyes, but the grasping shadow-hands persist in my vision. There's no escape."
-    show kura at transform_hide:
-        hide kura
+    show kura at transform_hide
+    hide kura
     "This is the end."
 
     $ persistent.kokoroClear = True
