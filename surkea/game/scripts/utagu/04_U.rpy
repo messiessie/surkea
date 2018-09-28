@@ -1,5 +1,13 @@
 label S_04_U:
     scene TESTSCENE with Dissolve(2.5)
+    show kokoro smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show utagu uuh:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
+    show oni neutral:
+        yanchor 1.0 ypos 1080+300 xalign 1.2
     "Lunch comes and goes more quickly than yesterday. We eat in silence, each lost in our own thoughts."
     "I imagine Kokoro is thinking mostly about food."
     "But I can tell Utagu is still confused about her bandaged arm. Perplexed that she can't remember anything about the apparent accident."
@@ -117,3 +125,5 @@ label S_04_U:
     utagu "If you say so."
     kura "Yeah."
     "Even as I say so, I bite my lip, uncertain."
+    
+return

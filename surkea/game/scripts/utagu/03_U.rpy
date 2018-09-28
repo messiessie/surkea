@@ -94,3 +94,5 @@ label S_03_U:
     "Since when did Utagu even have a bike?"
     "I scratch my head and catch Oni looking at me out of the corner of her eye."
     "I offer her a weak smile and turn to my notebook, mind racing more than I would like."
+    
+return

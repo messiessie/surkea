@@ -1,5 +1,13 @@
 label S_05_U:
     scene TESTSCENE with Dissolve(2.5)
+    show kokoro smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show utagu uuh:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
+    show oni neutral:
+        yanchor 1.0 ypos 1080+300 xalign 1.2
     "It happens just as the bell rings to mark the end of class."
     "I'm putting my books away when I hear Utagu scream."
     "It's not a drawn-out noise. It crashes against my ears rather like glass shattering. Quick and punctuated."
@@ -83,3 +91,5 @@ label S_05_U:
     utagu "Today is just an unusually strange day? Is that really what you think."
     "It isn't."
     kura "It is."
+    
+return

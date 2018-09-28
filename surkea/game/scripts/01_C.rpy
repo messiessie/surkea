@@ -109,7 +109,7 @@ label S_01_C:
     "We all dig in and chat about various topics."
     "Time seems to fly by us in seconds, because as soon as we finish our lunch, afternoon class begins."
     # Transition
-    show TESTSCENE with pixellate
+    scene TESTSCENE with pixellate
     show kokoro smile:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     show kura smile:
