@@ -1,5 +1,13 @@
 label S_07_U:
     scene TESTSCENE with Dissolve(2.5)
+    show kokoro smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show utagu uuh:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
+    show oni neutral:
+        yanchor 1.0 ypos 1080+300 xalign 1.2
     kura "Utagu."
     "She doesn't respond. She only whimpers, turning on her feet to look down the first corridor, and then the second, and then the first, which comes back to face her before she's turned full circle."
     kura "Utagu!"

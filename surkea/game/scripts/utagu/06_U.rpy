@@ -1,5 +1,13 @@
 label S_06_U:
     scene TESTSCENE with Dissolve(2.5)
+    show kokoro smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.3
+    show kura hmm:
+        yanchor 1.0 ypos 1080+300 xalign -0.1
+    show utagu uuh:
+        yanchor 1.0 ypos 1080+300 xalign 0.7
+    show oni neutral:
+        yanchor 1.0 ypos 1080+300 xalign 1.2
     #TODO
     utagu "I want to believe you, Kura. I really do."
     kura "Why can't you?"

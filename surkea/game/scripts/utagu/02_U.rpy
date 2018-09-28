@@ -3,7 +3,7 @@ label S_02_U:
     #TODO
     #<scene open>
     show kura smile:
-        yanchor 1.0 ypos 1080+300 xalign 0.45
+        yanchor 1.0 ypos 1080+300 xalign 0.75
 
     "I'm in more of a studious mood right now, I think."
     "The quiet of the library, the crisp aroma of paper, the ruffle of a page turning."
@@ -11,7 +11,9 @@ label S_02_U:
     "Utagu is good company, too, if she's in the mood to talk. Or even if she's not, really. I'd just like not to be alone."
 
     #<scene bg corridor>
-
+    scene TESTSCENE with pixellate
+    show kura smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.75
     "I set off down the empty hall the same way Utagu just went. It's almost disconcertingly deserted, but I push the silence to the back of my mind as I round a corner and head upstairs."
     "Nobody here, either. It must just be a slow day."
     "The bright glow of the sun lights up the corridor while I walk, the heat haze outside making wave-like patterns on the floor."
@@ -22,14 +24,16 @@ label S_02_U:
     "It's heavy, but it opens without a sound."
 
     #<scene bg library>
-
+    scene TESTSCENE with pixellate
+    show kura smile:
+        yanchor 1.0 ypos 1080+300 xalign 0.75
     "The library, too, is empty. There isn't even a librarian at the front desk. They must be out to lunch or something."
     "A wall clock ticks the seconds idly by while I scan the room for Utagu."
     "I hear the sound of a page being turned from somewhere between the shelves. I bet she's back there, relaxing on one of the brightly colored bean bag chairs. It's her favorite spot."
     "I squeeze in between the Mystery and Romance shelves, nearly tripping on a stack of detective books on the ground."
 
     show utagu smile:
-        yanchor 1.0 ypos 1080+300 xalign 0.6
+        yanchor 1.0 ypos 1080+300 xalign 0.45
 
     "Coming out the other side, I spot Utagu right where I expected her, half-swallowed into a purple bean bag chair in the corner."
     "She's absorbed in a thick volume of what appears to be a fantasy novel, but her eyes flit up to look at me as I enter her field of view."
@@ -150,3 +154,5 @@ label S_02_U:
     "Utagu laughs and leans back into her chair, burying her face another book from the stack."
     utagu "Perfect."
     "I flip open the robot book, find the first sentence, and start reading."
+    
+return
