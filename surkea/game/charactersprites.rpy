@@ -16,6 +16,7 @@ image oni shriek_eye = im.FactorScale("sprites/oni/Oni_Shriek_Eye.png", 0.30, bi
 image oni smile = im.FactorScale("sprites/oni/Oni_Smile.png", 0.30, bilinear=True)
 image oni yell = im.FactorScale("sprites/oni/Oni_Yell.png", 0.30, bilinear=True)
 image oni yell_eye = im.FactorScale("sprites/oni/Oni_Yell_Eye.png", 0.30, bilinear=True)
+image oni frown = im.FactorScale("sprites/oni/Oni_Frown.png", 0.30, bilinear=True)
 
 ##########################################
 ##-----------------UTAGU----------------##
