@@ -1,4 +1,38 @@
+<<<<<<< HEAD
 Fri Sep 28 22:00:28 2018
+=======
+<<<<<<< HEAD
+Fri Sep 28 09:50:21 2018
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.12.4.2187
+ 
+
+Bootstrap to the start of init.init took 0.08s
+Early init took 0.05s
+Loader init took 0.13s
+Loading error handling took 0.05s
+Loading script took 0.27s
+Loading persistent took 0.05s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.22s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+DPI scale factor: 1.250000
+Creating interface object took 0.12s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+=======
+Fri Sep 28 13:04:30 2018
+>>>>>>> 85f6e6f4be182f223cc02a0d39ed0ba901bb2360
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
@@ -351,9 +385,16 @@ Init translation took 0.07s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
+<<<<<<< HEAD
 Save screen analysis took 0.18s
 Prepare screens took 0.14s
 Save pyanalysis. took 0.21s
+=======
+Save screen analysis took 0.07s
+Prepare screens took 0.12s
+>>>>>>> 05b0f51dfb762670256bc9046b49b3d06900c3db
+Save pyanalysis. took 0.00s
+>>>>>>> 85f6e6f4be182f223cc02a0d39ed0ba901bb2360
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
@@ -361,7 +402,17 @@ Interface start took 0.02s
 
 primary display bounds: (0, 0, 1920, 1080)
 Windowed mode.
+<<<<<<< HEAD
 Screen sizes: virtual=(1920, 1080) physical=(1280, 720) drawable=(1280, 720)
+=======
+<<<<<<< HEAD
+Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
+Vendor: 'Intel'
+Renderer: 'Intel(R) HD Graphics 530'
+Version: '4.4.0 - Build 21.20.16.4821'
+=======
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+>>>>>>> 85f6e6f4be182f223cc02a0d39ed0ba901bb2360
 Vendor: 'ATI Technologies Inc.'
 Renderer: 'AMD Radeon HD 5500 Series'
 Version: '4.5.13399 Compatibility Profile Context 15.201.1151.1008'
@@ -2324,6 +2375,7 @@ Screen sizes: virtual=(1920, 1080) physical=(1280, 720) drawable=(1280, 720)
 Vendor: 'ATI Technologies Inc.'
 Renderer: 'AMD Radeon HD 5500 Series'
 Version: '4.5.13399 Compatibility Profile Context 15.201.1151.1008'
+>>>>>>> 05b0f51dfb762670256bc9046b49b3d06900c3db
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 1080, 'current_w': 1920, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -2605,10 +2657,21 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
+Total time until interface ready: 2.19200015068s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.037000 seconds.
+- Frame drawn at 0.072000 seconds.
+- Frame drawn at 0.095000 seconds.
+- 0.095000 seconds to render 5 frames.
+=======
 controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
 Total time until interface ready: 1482.98699999s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
+<<<<<<< HEAD
 - Frame drawn at 0.028000 seconds.
 - Frame drawn at 0.060000 seconds.
 - Frame drawn at 0.092000 seconds.
@@ -4567,3 +4630,11 @@ Total time until interface ready: 2254.38700008s
 - Frame drawn at 0.098000 seconds.
 - Frame drawn at 0.115000 seconds.
 - 0.115000 seconds to render 5 frames.
+=======
+- Frame drawn at 0.032000 seconds.
+- Frame drawn at 0.065000 seconds.
+- Frame drawn at 0.097000 seconds.
+- Frame drawn at 0.130000 seconds.
+- 0.130000 seconds to render 5 frames.
+>>>>>>> 05b0f51dfb762670256bc9046b49b3d06900c3db
+>>>>>>> 85f6e6f4be182f223cc02a0d39ed0ba901bb2360
