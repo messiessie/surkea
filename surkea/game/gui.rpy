@@ -89,7 +89,7 @@ define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
 ## Should we show the name and version of the game?
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## Dialogue ####################################################################
@@ -212,8 +212,8 @@ define gui.choice_button_borders = Borders(150, 8, 150, 8)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_idle_color = "#828282"
+define gui.choice_button_text_hover_color = "#3582ff"
 
 
 ## File Slot Buttons ###########################################################
@@ -247,6 +247,7 @@ define gui.file_slot_rows = 2
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
 define gui.navigation_xpos = 60
+define gui.main_menu_xpos = 1500
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 15
