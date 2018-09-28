@@ -7,7 +7,7 @@ label S_07_K:
     "The impossible things in this hallway pry at some deep, hidden fear."
     "Fear that my perception was wrong all along."
     show kokoro shock2:
-        yanchor 1.0 ypos 1080+300 xalign 0.3
+        yanchor 1.0 ypos 1080+300 xalign 0.55
     kura mad "Kokoro!"
     "She ignores me."
     kokoro "It's wonderful."
@@ -118,7 +118,7 @@ label S_07_K:
     kokoro "Everything will be fine!"
     "Kokoro's tone is uneasy, miles away from the strange calm moments ago."
     "The shadows splash against my face."
-    kokoro smile2 "It has to be, right? It has to be fine?"
+    kokoro smile "It has to be, right? It has to be fine?"
     "She holds her arms before her face. Skin and muscle fall away from bone."
     kokoro "Right!? Kura?"
     "I can't bring myself to speak."

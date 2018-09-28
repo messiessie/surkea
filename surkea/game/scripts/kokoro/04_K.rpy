@@ -1,7 +1,7 @@
 label S_04_K:
     scene TESTSCENE with Dissolve(2.5)
     show kura hmm:
-        yanchor 1.0 ypos 1080+300 xalign -0.1
+        yanchor 1.0 ypos 1080+300 xalign 0.1
     show kokoro smile:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     "Later that day, I head to lunch with Kokoro."
@@ -22,7 +22,7 @@ label S_04_K:
     "Man, how sleep-deprived am I?"
     "I don't have much time to dwell on this before we're joined by someone else."
     show utagu frown:
-        yanchor 1.0 ypos 1080+300 xalign -0.3
+        yanchor 1.0 ypos 1080+300 xalign 0.6
     "Utagu joins us, swiftly sitting down next to Kokoro."
     kokoro smile "Hey Utagu!"
     utagu huh "Oh, hey."

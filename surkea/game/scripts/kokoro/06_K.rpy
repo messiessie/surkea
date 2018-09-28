@@ -1,9 +1,9 @@
 label S_06_K:
     scene TESTSCENE with Dissolve(2.5)
     show kura hmm:
-        yanchor 1.0 ypos 1080+300 xalign -0.1
+        yanchor 1.0 ypos 1080+300 xalign 0.2
     show kokoro shock:
-        yanchor 1.0 ypos 1080+300 xalign 0.0
+        yanchor 1.0 ypos 1080+300 xalign -0.1
     "I can hear her breathing."
     #bg classroom in, closeup on Kokoro_shock but don’t show the eyes
     #rain sfx
@@ -11,7 +11,7 @@ label S_06_K:
     "She’s been sitting with her face glued to the windows. What is she focusing so hard on outside?"
     "All us other girls can just see vague blurs of a dense forest. It’s too far off to see anything, and the thick rain doesn’t help."
     show oni neutral:
-        yanchor 1.0 ypos 1080+300 xalign 1.0
+        yanchor 1.0 ypos 1080+300 xalign 0.6
     oni "…"
     "Oni sighs and puts away her book. She was the only one trying to distract herself from the uncomfortable mood radiating from Kokoro."
     "Utagu and I on the other hand were too worried to focus on anything other than Kokoro."
@@ -27,13 +27,13 @@ label S_06_K:
     kura mad "…That’s probably the dumbest shit I’ve ever heard as an excuse."
     "I stand up and walk to a still frozen Kokoro. She looks even more tense the second I touch her shoulder."
     "She turns to look slightly at my general direction."
-    kura neutral "Kokoro, I know you aren’t alright. You aren’t handling things well. None of us are, but you shouldn’t freeze up and keep your anxiety to yourself."
+    kura smile "Kokoro, I know you aren’t alright. You aren’t handling things well. None of us are, but you shouldn’t freeze up and keep your anxiety to yourself."
     "She finally takes a deep breath."
     kura smile "We’re in this together. Let’s help each other out."
     kokoro "…"
     "She turns to face me."
     #kokoro sprite on same level as kura
-    kokoro "…Okej."
+    kokoro smile "…Okej."
     utagu worry "Huh?"
     "Kokoro’s accent sounds… Odd."
     kura "Did you swallow a frog?"
@@ -44,7 +44,7 @@ label S_06_K:
     "Oni casts a suspicious look while me and Utagu look shocked."
     kura "Kokoro, not a single word of what you just said was anything I understand. When did you learn this?"
     kokoro "Ursäkta? Kura, jag pratar med dig precis som vanligt. Har du-"
-    utagu worry2 "No, no, no! Kokoro stop! We don’t understand what you’re saying!"
+    utagu worry2 "No, no, no! Kokoro, stop! We don’t understand what you’re saying!"
     kokoro shock "..?!"
     "Kokoro looks at us like we’re suddenly aliens."
     #as soon as the next line starts, some sort of sound effect plays that rises in volume, then cuts everything to black and silence after about 2 seconds, even if her sentence isn’t finished before it blacks out (think how it’s done in Echo https://youtu.be/-v1dV_R39lk?t=43m48s )
@@ -73,7 +73,7 @@ label S_06_K:
     # Transition
     scene TESTSCENE with Dissolve(0.5)
     show kura frown:
-        yanchor 1.0 ypos 1080+300 xalign 0.3
+        yanchor 1.0 ypos 1080+300 xalign 0.5
     "Utagu is no longer in my arms. Both her and Oni are gone."
     "What is going on?!"
     "I launch myself up from the floor about to run out of the room, but something on my desk stops me."

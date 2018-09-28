@@ -41,7 +41,7 @@ image kokoro smile_open = im.FactorScale("sprites/kokoro/Kokoro_Smile_Open.png",
 image kokoro grin = im.FactorScale("sprites/kokoro/Kokoro_Grin.png", 0.30, bilinear=True)
 image kokoro grin2 = im.FactorScale("sprites/kokoro/Kokoro_Grin2.png", 0.30, bilinear=True)
 image kokoro laugh = im.FactorScale("sprites/kokoro/Kokoro_Laugh.png", 0.30, bilinear=True)
-image kokoro shock1 = im.FactorScale("sprites/kokoro/Kokoro_Shock.png", 0.30, bilinear=True)
+image kokoro shock = im.FactorScale("sprites/kokoro/Kokoro_Shock.png", 0.30, bilinear=True)
 image kokoro shock2 = im.FactorScale("sprites/kokoro/Kokoro_Shock2.png", 0.30, bilinear=True)
 image kokoro frown = im.FactorScale("sprites/kokoro/Kokoro_Frown.png", 0.30, bilinear=True)
 image kokoro worry = im.FactorScale("sprites/kokoro/Kokoro_Worry.png", 0.30, bilinear=True)

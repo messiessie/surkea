@@ -3,7 +3,7 @@ label S_02_U:
     #TODO
     #<scene open>
     show kura smile:
-        yanchor 1.0 ypos 1080+300 xalign 0
+        yanchor 1.0 ypos 1080+300 xalign 0.45
 
     "I'm in more of a studious mood right now, I think."
     "The quiet of the library, the crisp aroma of paper, the ruffle of a page turning."
@@ -29,12 +29,12 @@ label S_02_U:
     "I squeeze in between the Mystery and Romance shelves, nearly tripping on a stack of detective books on the ground."
 
     show utagu smile:
-        yanchor 1.0 ypos 1080+300 xalign 0.7
+        yanchor 1.0 ypos 1080+300 xalign 0.6
 
     "Coming out the other side, I spot Utagu right where I expected her, half-swallowed into a purple bean bag chair in the corner."
     "She's absorbed in a thick volume of what appears to be a fantasy novel, but her eyes flit up to look at me as I enter her field of view."
 
-    utagu uhh "Hey, Kura."
+    utagu uuh "Hey, Kura."
 
     utagu huh "Just hanging out?"
     kura "Yeah. I figured I could use a good book right now."
@@ -54,7 +54,7 @@ label S_02_U:
     "She giggles into her book."
 
     utagu "Thanks."
-    utagu uhh "I grew up on a lot of second-hand classic sci-fi and fantasy my parents gave me, so it sort of just happened."
+    utagu uuh "I grew up on a lot of second-hand classic sci-fi and fantasy my parents gave me, so it sort of just happened."
 
     utagu huh "It's weird, though."
     kura hmm "Hm?"
@@ -81,7 +81,7 @@ label S_02_U:
     "Her face opens into a smile."
     utagu "Oh, that one!"
 
-    utagu uhh "I'm excited to get to it, actually."
+    utagu uuh "I'm excited to get to it, actually."
     utagu "The author's written a lot of great robot and android stories. It's like, her specialty."
 
     utagu huh "She has so many books, though, it's hard to find them all."
@@ -110,7 +110,7 @@ label S_02_U:
     kura smile "Nothing. I thought I took one of these other books, but I must be misremembering, because it's still there."
     "She looks between me and the stack."
 
-    utagu uhh "Oh."
+    utagu uuh "Oh."
     utagu "That's a little weird."
 
     utagu worry "I wonder how that could happen…"
@@ -123,7 +123,7 @@ label S_02_U:
     kura "I'm just tired. Imagining things."
     "Utagu's still squinting at me, but the suspicion in her face softens somewhat."
 
-    utagu uhh "Alright, Kura. If you say so…"
+    utagu uuh "Alright, Kura. If you say so…"
     kura "Yeah."
     kura "Anyway, I should let you get back to your book."
 
@@ -132,7 +132,7 @@ label S_02_U:
     kura "Oh yeah."
 
     utagu smile "So I need to prioritize."
-    utagu uhh "I do think I'll take this one, though."
+    utagu uuh "I do think I'll take this one, though."
     kura "You might need to wait a bit."
 
     utagu huh "What do you mean?"

@@ -1,6 +1,5 @@
 label S_03_K:
     scene TESTSCENE with Dissolve(2.5)
-    #TODO: Add sprite, BG and Music direction
     "I'm resting at my desk, my head buried in my arms."
     "Almost dozing off, with only the sound of the air-conditioning to keep my company."
     "So sleepy…"
@@ -14,11 +13,11 @@ label S_03_K:
     
     kura "Kokoro?"
     show kura hmm:
-        yanchor 1.0 ypos 1080+300 xalign -0.1
+        yanchor 1.0 ypos 1080+300 xalign 0.4
     show kokoro smile:
-        yanchor 1.0 ypos 1080+300 xalign 0.3
+        yanchor 1.0 ypos 1080+300 xalign 0.6
     kokoro "Hi hi!"
-    kura neutral "You're here early…"
+    kura hmm "You're here early…"
     kokoro laugh "Well, so are you!"
     "I groan as she sits beside me and sets down her things. She's right, and I regret it."
     kura frown "Believe me, I wouldn't be here this early if I could help it."

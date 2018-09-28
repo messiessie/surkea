@@ -1,11 +1,11 @@
 label S_02_K:
     scene TESTSCENE with Dissolve(2.5)
     show kura hmm:
-        yanchor 1.0 ypos 1080+300 xalign -0.1
+        yanchor 1.0 ypos 1080+300 xalign 0.4
     "I don't mind reading, but a hunt for a lost recipe sounds much more my speed."
     kura "So, you're looking for cookbooks?"
     show kokoro smile:
-        yanchor 1.0 ypos 1080+300 xalign 0.3
+        yanchor 1.0 ypos 1080+300 xalign 0.6
     kokoro smile_open "Uh-huh!"
     "She beams at me."
     kokoro "Wanna help?"
@@ -59,5 +59,6 @@ label S_02_K:
     kura frown "It would have been exciting if you hadn't just spoiled it for me."
     show kura smile
     "I giggle. No point in watching it now anyway."
+    "The rest of the afternoon is spent poring over cookbook after cookbook, each one different than the last."
     
 return

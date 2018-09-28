@@ -7,7 +7,7 @@ label S_03_U:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     show kura hmm:
         yanchor 1.0 ypos 1080+300 xalign -0.1
-    show utagu uhh:
+    show utagu uuh:
         yanchor 1.0 ypos 1080+300 xalign 0.7
     show oni neutral:
         yanchor 1.0 ypos 1080+300 xalign 1.2
@@ -30,7 +30,7 @@ label S_03_U:
     "Meanwhile, Utagu is examining her arm, which is bandaged up. It's been that way for a little while, now that I think about it."
     "She seems anxious."
     kura hmm"What's up, Utagu?"
-    utagu uhh "What?"
+    utagu uuh "What?"
     kura "You look distracted."
     utagu "I am, yeah…"
     kura "So, what's up?"

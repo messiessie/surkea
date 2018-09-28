@@ -35,7 +35,7 @@ label S_01_C:
     show kokoro smile
     "Utagu and Kokoro chatter as Oni sits down in the chair I brought along. I join in and take a seat as well."
     "Our four desks are pushed together in the center of the barren room."
-    show utagu uhh
+    show utagu uuh
     "Across from me is Utagu, who nervously flicks her eyes to the clock above the blackboard."
     "Anytime she catches me looking at her I feel like I've caught a very sad, lost puppy. She can be too worried for her own good sometimes, but I know she cares about us."
     "To my right Kokoro lounges, idly fiddling with her hair as she waits for our lunch break to arrive."
@@ -77,21 +77,24 @@ label S_01_C:
     kokoro "We made your favorite today!"
     kura smile "I made. You tried to snag most of it while I was cooking."
     utagu huh "Oh, did you make karaage?"
-    kura neutral "And YOU, Kokoro, will have this one."
+    kura smile "Uh huh, here you go!"
+    "I hand the box over to Utagu, who cradles it in her arms like it's going to break."
+    kokoro smile "Oh, what did I get?"
+    kura "And YOU, Kokoro, get this one."
     "She gladly opens the box I just handed to her."
     kokoro laugh "Oooh! Rice balls are my favorite!"
     "We all sit together like earlier this morning. I hand over a bento box to Oni."
     utagu smile "How do you even have time to cook lunch in school?"
     oni neutral_smile "You know how it is here, classes are short enough because it's summer. We have so much time to waste here it's almost like we actually ARE on our break."
     "Kokoro leans over her table towards me, her face beaming a smile."
-    kura neutral "What about you, Oni?"
+    kura smile "What about you, Oni?"
     oni neutral "What about what?"
     kura cunning "Lunch, dummy! What do you think is in there?"
     "She ponders for a bit."
     oni neutral_smile "Hmm. With the size and weight of this box I'll say…"
     "I stare at her in anticipation as she hovers the box up and down gently with her hands."
     oni smile "Vegetable tempura with rice and salmon?"
-    kura hmm "Oh, you're good. Or I'm becoming too predictable."
+    kura cunning2 "Oh, you're good. Or I'm becoming too predictable."
     oni smile "You just know what I love."
 
     show oni at transform_hide
