@@ -8,7 +8,6 @@ label S_06_U:
         yanchor 1.0 ypos 1080+300 xalign 0.7
     show oni neutral:
         yanchor 1.0 ypos 1080+300 xalign 1.2
-    #TODO
     utagu "I want to believe you, Kura. I really do."
     kura "Why can't you?"
     utagu "I don't know. I just... can't."

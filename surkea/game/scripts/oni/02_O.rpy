@@ -90,3 +90,4 @@ label S_02_O:
     kura "...I..."
     kura "...I think I’m sick-"
     #cuts to black with a thud sound
+return

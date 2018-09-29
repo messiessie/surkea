@@ -95,3 +95,4 @@ label S_04_O:
     "We can’t interfere too much more. Things are already spiraling out of control."
     "It’s risky, but we have to try."
     "I’m positive Oni can complete our mission this time."
+return

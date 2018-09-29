@@ -71,3 +71,4 @@ label S_05_O:
     (no textbox) "Oni, you have been bad to us. Bad to the experiment. It’s the only way."
     oni "STOOOOOOOOOP!"
     #just when Oni’s line ends it immediately cuts everything to black
+return
