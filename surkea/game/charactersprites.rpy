@@ -31,6 +31,7 @@ image utagu huh = im.FactorScale("sprites/utagu/Utagu_Huh.png", 0.30, bilinear=T
 image utagu uuh = im.FactorScale("sprites/utagu/Utagu_Uuh.png", 0.30, bilinear=True)
 image utagu worry = im.FactorScale("sprites/utagu/Utagu_Worry.png", 0.30, bilinear=True)
 image utagu worry2 = im.FactorScale("sprites/utagu/Utagu_Worry2.png", 0.30, bilinear=True)
+image utagu bull = im.FactorScale("sprites/utagu/Utagu_Bull.png", 0.30, bilinear=True)
 
 ##########################################
 ##-----------------KOKORO---------------##
@@ -63,4 +64,5 @@ image kura cunning = im.FactorScale("sprites/kura/Kura_Cunning.png", 0.30, bilin
 image kura cunning2 = im.FactorScale("sprites/kura/Kura_Cunning2.png", 0.30, bilinear=True)
 image kura end = im.FactorScale("sprites/kura/Kura_End.png", 0.30, bilinear=True)
 image kura end2 = im.FactorScale("sprites/kura/Kura_End2.png", 0.30, bilinear=True)
+image kura worry = im.FactorScale("sprites/kura/Kura_Worry.png", 0.30, bilinear=True)
 
