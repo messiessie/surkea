@@ -1,11 +1,6 @@
 label S_01_C:
-    scene TESTSCENE with Dissolve(2.5)
-    # oni awakens, the rest of the girls are nearby
-    # it's almost lunch, and oni has "taken a nap" after "falling yesterday"
-    # the girls chat about lunch and what foods they like most
-    # kura brings up that the weather is a little weird recently. Kokoro mentions that it'll be fine, probably. Utagu is nervous because she doesn't have an umbrella. 
-    #
-    # fade from black to closeup of Oni's eyes
+    scene bg_black with Dissolve(2.5)
+    # oni awakens, the rest of the girls are nearby offscreen
     kura "Oh! You're awake!"
     utagu "Are you alright? You were out for a while there."
     kokoro "She must have been knocked out from that breakfast you made, Kura."
@@ -15,19 +10,21 @@ label S_01_C:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     show kura hmm:
         yanchor 1.0 ypos 1080+300 xalign -0.1
-    show utagu worry2:
+    show utagu frown:
         yanchor 1.0 ypos 1080+300 xalign 0.7
 
     kokoro "I WARNED you, Oni is too sensitive to any sort of spice. She couldn't even handle black pepper if she tried to!"
-    kura "First off, how dare you. Second, she could barely handle white bread if I made her toast."
+    kura frown "First off, how dare you. Second, she could barely handle white bread if I made her toast."
     utagu "…I think that's just gluten intolerance."
     "As we chatter along, Oni sits up slowly, idly rubbing the sleep from her eye."
+    show kokoro smile
+    show kura smile
     "She looks at me first, and lets her eyes wander around the classroom."
     utagu worry "How are you feeling?"
     show oni neutral_smile:
         yanchor 1.0 ypos 1080+300 xalign 1.2
     oni "I'm fine, thank you. Are you done talking smack about me?"
-    "She slowly rises to her feet with a nearby chair."
+    "She slowly rises to her feet using a nearby chair."
     "Kokoro and Utagu go to sit by their desks in the center of the classroom as I help Oni up and grab her chair."
     kura frown "Are you sure you're okay?"
     kokoro grin "She's fine, she only took a well earned nap, right?"
@@ -121,10 +118,11 @@ label S_01_C:
 
     # Show evening classroom BG w/ all girls
     # school bell ringing
+    play music school_bell
     "We all stretch our arms as the school bell rings."
     kokoro smile_open "Haaaaaah, finally the day is over."
     "I watch her jump out of her chair as I put away my books."
-    kokoro "Time for the GOOD stuff to begin!"
+    kokoro grin "Time for the GOOD stuff to begin!"
     oni neutral "What, reading your gossip magazines and talk about cute girls?"
     kokoro smile "No, stupid! That's for tomorrow! Todaaaay I plan on finding what cookbooks they have hidden around in school."
     kura smug "So you can tell me what to cook for you?"
