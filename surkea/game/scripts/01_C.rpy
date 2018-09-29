@@ -1,6 +1,9 @@
 label S_01_C:
     scene bg_black
     scene TESTSCENE with circirisout
+    
+    play music surkeatest2
+    
     # oni awakens, the rest of the girls are nearby
     # it's almost lunch, and oni has "taken a nap" after "falling yesterday"
     # the girls chat about lunch and what foods they like most
@@ -65,6 +68,7 @@ label S_01_C:
         yanchor 1.0 ypos 1080+300 xalign 1.2
 
     # school bell ringing
+    play sound schoolbell
     "The school bell rings out to let us know that our lesson is over."
     "Utagu breathes a sigh of relief."
 
@@ -126,7 +130,7 @@ label S_01_C:
 
     # Show evening classroom BG w/ all girls
     # school bell ringing
-    play music school_bell
+    play audio schoolbell
     "We all stretch our arms as the school bell rings."
     kokoro smile_open "Haaaaaah, finally the day is over."
     "I watch her jump out of her chair as I put away my books."

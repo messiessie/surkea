@@ -1,5 +1,6 @@
 label S_03_U:
     scene TESTSCENE with Dissolve(2.5)
+    play music surkeatest3
     "The librarian never did come, but Utagu and I decided between ourselves that it would be fine to take the books anyway."
     "We'd just let staff know we checked them out whenever we saw them next."
     "It's not a big deal. Probably."

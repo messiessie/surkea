@@ -1,6 +1,6 @@
 label S_07_U:
     scene TESTSCENE with Dissolve(2.5)
-    ## music Surkea test 3-1
+    play music surkeatest3_1
     show kura frown:
         yanchor 1.0 ypos 1080+300 xalign -0.1
     show utagu worry2:
@@ -63,7 +63,7 @@ label S_07_U:
     utagu "Nothing's wrong. This is exactly how it's supposed to be."
     "A few tears drip through her fingers and burn through the floor. I feel a pressure mounting from every direction."
     kura "Utagu, what are you talking about?"
-    ##music surkea test 2-1
+    play music surkeatest2_1
     utagu "Don't you remember, Kura?"
     "She lifts her head. It looks wrong. Swollen and ajar. Cracked, like a window, and flowing, like a dune."
     "She lifts her head. Her eyes look through me and don't seem to see. The pressure builds, and I find it hard to breathe."
@@ -119,7 +119,7 @@ label S_07_U:
     kura "No..."
     utagu "Goodbye, Kura."
     scene bg_black with pixellate
-    ## stop music
+    stop music
     "She's gone, and so is everything else. I see only oblivion in every direction."
     "But three final words make it to my ears before the last of my senses disappear."
     utagu "Until next time."

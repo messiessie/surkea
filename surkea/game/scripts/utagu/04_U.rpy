@@ -1,6 +1,6 @@
 label S_04_U:
     scene TESTSCENE with Dissolve(2.5)
-    ## music Surkea test 2
+    play music surkeatest2
 
     "Lunch comes and goes more quickly than yesterday. We eat in silence, each lost in our own thoughts."
     "I imagine Kokoro is thinking mostly about food."

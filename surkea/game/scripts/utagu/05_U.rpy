@@ -1,7 +1,6 @@
 label S_05_U:
     scene TESTSCENE with Dissolve(2.5)
-    ## music Surkea test 7
-
+    play music surkeatest7
 
     "It happens just as the bell rings to mark the end of class."
     "I'm putting my books away when I hear Utagu scream."

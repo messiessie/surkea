@@ -2,7 +2,7 @@ label S_02_U:
     scene TESTSCENE with Dissolve(2.5)
     #TODO
     #<scene open - bg corridor>
-    ## music Surkea test 2
+    ## music Surkea test 2 continues from scene 01_C
     show kura smile:
         yanchor 1.0 ypos 1080+300 xalign 0.35
 

@@ -1,6 +1,6 @@
 label S_06_U:
     scene TESTSCENE with Dissolve(2.5)
-    ## music Surkea test 4
+    play music surkeatest4
 
     #TODO
     show utagu worry:
@@ -80,7 +80,7 @@ label S_06_U:
     "The classroom we were just in moves up out of our sight, and Oni and Kokoro move with it."
     "But Utagu's still here, with me, right next to me, suspended in the dark."
     scene TESTSCENE with pixellate
-    ## stop music
+    stop music
     show utagu worry:
         yanchor 1.0 ypos 1080+300 xalign 0.7    
     show kura worry:
