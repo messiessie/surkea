@@ -1,11 +1,19 @@
 label S_01_C:
-    scene bg_black with Dissolve(2.5)
-    # oni awakens, the rest of the girls are nearby offscreen
+    scene bg_black
+    scene TESTSCENE with circirisout
+    # oni awakens, the rest of the girls are nearby
+    # it's almost lunch, and oni has "taken a nap" after "falling yesterday"
+    # the girls chat about lunch and what foods they like most
+    # kura brings up that the weather is a little weird recently. Kokoro mentions that it'll be fine, probably. Utagu is nervous because she doesn't have an umbrella. 
+    #
+    # fade from black to closeup of Oni's eyes
     kura "Oh! You're awake!"
     utagu "Are you alright? You were out for a while there."
     kokoro "She must have been knocked out from that breakfast you made, Kura."
     # eye slowly open
-    # fade from Oni to classroom with Kura, Kokoro and Utagu all present 
+    # fade from Oni to classroom with Kura, Kokoro and Utagu all present
+
+        
     show kokoro worry:
         yanchor 1.0 ypos 1080+300 xalign 0.3
     show kura hmm:
